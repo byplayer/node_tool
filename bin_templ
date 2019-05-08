@@ -1,0 +1,12 @@
+#!/bin/bash
+
+pushd `dirname ${0}`/.. > /dev/null
+BASE_DIR=`pwd`
+popd > /dev/null
+
+export NVM_DIR=${BASE_DIR}/.nvm
+source ${NVM_DIR}/nvm.sh
+
+NODE_VER=$(cat ${BASE_DIR}/.nvmrc| head -1)
+
+${BASE_DIR}/.nvm/versions/node/${NODE_VER}/bin/`basename ${0}` $*
