@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/byplayer/node_tool/issues"
   },
-  "homepage": "https://github.com/byplayer/node_tool#readme"
+  "homepage": "https://github.com/byplayer/node_tool#readme",
+  "dependencies": {
+    "prettier": "^1.17.0"
+  }
 }
