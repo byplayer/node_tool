@@ -36,6 +36,10 @@ set -ex
 
 npm install -g prettier
 
+if [ ! -d bin ]; then
+  mkdir bin
+fi
+
 for bin_file in $(\ls .nvm/versions/node/${NODE_VER}/bin); do
   cp bin_templ bin/$bin_file
 done
