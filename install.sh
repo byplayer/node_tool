@@ -34,7 +34,7 @@ nvm use
 
 set -ex
 
-npm install -g prettier
+npm install --global prettier @prettier/plugin-php
 
 rm -r bin
 
