@@ -36,7 +36,9 @@ set -ex
 
 npm install --global prettier @prettier/plugin-php
 
-rm -r bin
+if [ -d bin ]; then
+  rm -r bin
+fi
 
 if [ ! -d bin ]; then
   mkdir bin
