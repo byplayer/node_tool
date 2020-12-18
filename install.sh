@@ -1,6 +1,6 @@
 #!/bin/bash
 
-NVM_VER=v0.34.0
+NVM_VER=v0.37.2
 
 pushd `dirname ${0}` > /dev/null
 BASE_DIR=`pwd`
@@ -15,6 +15,7 @@ if [ ! -d .nvm ]; then
 fi
 
 pushd .nvm >> /dev/null
+git pull
 git checkout $NVM_VER
 popd >> /dev/null
 
