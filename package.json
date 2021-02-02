@@ -4,8 +4,6 @@
   "private": true,
   "dependencies": {
     "@prettier/plugin-php": "^0.16.1",
-    "prettier": "^2.2.1",
-    "textlint": "^11.8.1",
-    "textlint-rule-preset-ja-technical-writing": "^4.0.1"
-  }
+    "prettier": "^2.2.1"
+   }
 }
