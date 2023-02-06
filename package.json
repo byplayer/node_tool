@@ -2,8 +2,8 @@
   "name": "node_tools",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "@prettier/plugin-php": "^0.16.1",
-    "prettier": "^2.2.1"
-   }
+  "devDependencies": {
+    "@prettier/plugin-php": "^0.19.3",
+    "prettier": "^2.8.3"
+  }
 }
