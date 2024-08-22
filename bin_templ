@@ -4,4 +4,8 @@ pushd $(dirname ${0})/.. >/dev/null
 BASE_DIR=$(pwd)
 popd >/dev/null
 
+NODE_VER=$(cat ${BASE_DIR}/.tool-versions | grep nodejs | awk '{print $2;}')
+
+export ASDF_NODEJS_VERSION=${NODE_VER}
+
 ${BASE_DIR}/node_modules/.bin/$(basename ${0}) $*
