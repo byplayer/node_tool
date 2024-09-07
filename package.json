@@ -4,6 +4,6 @@
   "private": true,
   "devDependencies": {
     "@prettier/plugin-php": "^0.22.2",
-    "prettier": "git+https://github.com/byplayer/prettier.git#after_bullet_space"
+    "prettier": "git+https://github.com/byplayer/prettier.git#markdown_fixes"
   }
 }

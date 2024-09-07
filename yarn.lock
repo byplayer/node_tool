@@ -874,9 +874,9 @@ postcss@8.4.41:
     picocolors "^1.0.1"
     source-map-js "^1.2.0"
 
-"prettier@git+https://github.com/byplayer/prettier.git#after_bullet_space":
+"prettier@git+https://github.com/byplayer/prettier.git#markdown_fixes":
   version "3.4.0-dev"
-  resolved "git+https://github.com/byplayer/prettier.git#288f40ab5ef0908ada228ef3ba8e2165f15e9822"
+  resolved "git+https://github.com/byplayer/prettier.git#d77b1938b389e3d0bd010a1f1786eeb388271f26"
   dependencies:
     "@angular/compiler" "18.2.1"
     "@babel/code-frame" "7.24.7"
