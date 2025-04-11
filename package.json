@@ -4,8 +4,8 @@
   "private": true,
   "devDependencies": {},
   "dependencies": {
-    "@prettier/plugin-php": "^0.22.2",
-    "markdownlint-cli2": "^0.14.0",
+    "@prettier/plugin-php": "^0.22.4",
+    "markdownlint-cli2": "^0.17.2",
     "prettier": "git+https://github.com/byplayer/prettier.git#markdown_fixes"
   }
 }
