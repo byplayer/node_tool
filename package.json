@@ -4,6 +4,7 @@
   "private": true,
   "devDependencies": {},
   "dependencies": {
+    "@anthropic-ai/claude-code": "^1.0.100",
     "@prettier/plugin-php": "^0.24.0",
     "markdownlint-cli2": "^0.18.1",
     "prettier": "3.6.2"
