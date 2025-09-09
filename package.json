@@ -4,9 +4,9 @@
   "private": true,
   "devDependencies": {},
   "dependencies": {
-    "@anthropic-ai/claude-code": "^1.0.102",
+    "@anthropic-ai/claude-code": "^1.0.109",
     "@prettier/plugin-php": "^0.24.0",
-    "markdownlint-cli2": "^0.18.1",
+    "markdownlint-cli2": "git+https://github.com/byplayer/prettier.git#fix-17746",
     "prettier": "3.6.2"
   }
 }
