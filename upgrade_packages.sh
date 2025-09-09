@@ -1,6 +1,6 @@
 #!/bin/bash
 
-git switch -c update_packages
+git switch -c update_packages_$(date +"%Y%m%d%H%M%S")
 
 yarn upgrade --latest
 
