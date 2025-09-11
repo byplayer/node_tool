@@ -18,5 +18,11 @@ else
     git push
 fi
 
-gh pr create --title "⬆️ upgrade packages" --body "Automated package upgrade via \`update_packages.sh\` script."
+pr_url=$(gh pr create --title "⬆️ upgrade packages" --body "Automated package upgrade via \`update_packages.sh\` script." | grep -o 'https://github.com/[^ ]*')
+if [[ -n "$pr_url" ]]; then
+    open "$pr_url"
+else
+    echo "❌ Failed to retrieve PR URL."
+fi
+
 echo "✅ Changes committed and PR created."
