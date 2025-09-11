@@ -11,4 +11,12 @@ git switch -c "update_packages_$(date +"%Y%m%d%H%M%S")"
 
 git add .
 git commit -m "⬆️ upgrade packages"
-git ex push
+
+if ! git ls-remote --exit-code --heads origin "$(git branch --show-current)" &>/dev/null; then
+    git push --set-upstream origin "$(git branch --show-current)"
+else
+    git push
+fi
+
+gh pr create --title "⬆️ upgrade packages" --body "Automated package upgrade via \`update_packages.sh\` script."
+echo "✅ Changes committed and PR created."
