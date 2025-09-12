@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@anthropic-ai/claude-code@^1.0.111":
-  version "1.0.111"
-  resolved "https://registry.yarnpkg.com/@anthropic-ai/claude-code/-/claude-code-1.0.111.tgz#50132c9f2076ab8e53ca7bd1ebd85f1339c3552d"
-  integrity sha512-1aALYgO8JyGtRdsFskB3uZiAUKbx8u2YcGoa55ZGwsczTBBVIy/+jsuOi3bAubqlBzi5/8gfFBwYK5QuA621MA==
+"@anthropic-ai/claude-code@^1.0.112":
+  version "1.0.112"
+  resolved "https://registry.yarnpkg.com/@anthropic-ai/claude-code/-/claude-code-1.0.112.tgz#251af4ba165d5e749104dc1690091b7f8411d25a"
+  integrity sha512-UMGxS1iLA8RlrDGpSzMfnJpVHXxcL7AdD8kQfqFy/hAFqwyKpoJPHGBwXt5KjuVDwcWwkpXc3tXDVt//4z6icg==
   optionalDependencies:
     "@img/sharp-darwin-arm64" "^0.33.5"
     "@img/sharp-darwin-x64" "^0.33.5"
