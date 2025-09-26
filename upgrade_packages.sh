@@ -1,6 +1,6 @@
 #!/bin/bash
 
-yarn upgrade --latest
+pnpm update
 
 if [[ -z $(git status --porcelain) ]]; then
     echo "✅ No changes to commit. Exiting."

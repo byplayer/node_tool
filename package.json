@@ -2,11 +2,15 @@
   "name": "node_tools",
   "version": "0.3.0",
   "private": true,
-  "devDependencies": {},
+  "packageManager": "pnpm@10.17.1",
   "dependencies": {
     "@anthropic-ai/claude-code": "^1.0.123",
     "@prettier/plugin-php": "^0.24.0",
     "markdownlint-cli2": "^0.18.1",
+    "pnpm": "^10.17.1",
     "prettier": "3.6.2"
+  },
+  "scripts": {
+    "preinstall": "npx only-allow pnpm"
   }
 }
