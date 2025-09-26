@@ -15,7 +15,7 @@ fi
 
 set -eu
 
-yarn install
+pnpm install
 
 if [ -d bin ]; then
   rm -r bin
