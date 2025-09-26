@@ -15,7 +15,7 @@ fi
 
 set -eu
 
-pnpm install
+npx pnpm install
 
 if [ -d bin ]; then
   rm -r bin
