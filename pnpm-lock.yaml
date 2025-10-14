@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@anthropic-ai/claude-code':
-        specifier: ^2.0.13
-        version: 2.0.13
+        specifier: ^2.0.14
+        version: 2.0.14
       '@prettier/plugin-php':
         specifier: ^0.24.0
         version: 0.24.0(prettier@3.6.2)
@@ -26,8 +26,8 @@ importers:
 
 packages:
 
-  '@anthropic-ai/claude-code@2.0.13':
-    resolution: {integrity: sha512-T5ZRNIHt/iKf443c9TWeXgzyRchfsicV00Tz4dgLlXfzehvjgTtvgeJBfk9p3AW412zpqwqXDKL4/UvOmhNffg==}
+  '@anthropic-ai/claude-code@2.0.14':
+    resolution: {integrity: sha512-Q4A4Jo7WZ4aMUIu8CUIIo2Jt66kl2vrEjRg/kYzX6syuK0DiV3WhdMZceSvLAU0BFpX1L8aERhRWxLWDxX3fYg==}
     engines: {node: '>=18.0.0'}
     hasBin: true
 
@@ -222,8 +222,8 @@ packages:
   jsonc-parser@3.3.1:
     resolution: {integrity: sha512-HUgH65KyejrUFPvHFPbqOY0rsFip3Bo5wb4ngvdi1EpCYWUQDC5V+Y7mZws+DLkr4M//zQJoanu1SP+87Dv1oQ==}
 
-  katex@0.16.23:
-    resolution: {integrity: sha512-7VlC1hsEEolL9xNO05v9VjrvWZePkCVBJqj8ruICxYjZfHaHbaU53AlP+PODyFIXEnaEIEWi3wJy7FPZ95JAVg==}
+  katex@0.16.25:
+    resolution: {integrity: sha512-woHRUZ/iF23GBP1dkDQMh1QBad9dmr8/PAwNA54VrSOVYgI12MAcE14TqnDdQOdzyEonGzMepYnqBMYdsoAr8Q==}
     hasBin: true
 
   linguist-languages@8.2.0:
@@ -394,7 +394,7 @@ packages:
 
 snapshots:
 
-  '@anthropic-ai/claude-code@2.0.13':
+  '@anthropic-ai/claude-code@2.0.14':
     optionalDependencies:
       '@img/sharp-darwin-arm64': 0.33.5
       '@img/sharp-darwin-x64': 0.33.5
@@ -562,7 +562,7 @@ snapshots:
 
   jsonc-parser@3.3.1: {}
 
-  katex@0.16.23:
+  katex@0.16.25:
     dependencies:
       commander: 8.3.0
 
@@ -673,7 +673,7 @@ snapshots:
     dependencies:
       '@types/katex': 0.16.7
       devlop: 1.1.0
-      katex: 0.16.23
+      katex: 0.16.25
       micromark-factory-space: 2.0.1
       micromark-util-character: 2.1.1
       micromark-util-symbol: 2.0.1
