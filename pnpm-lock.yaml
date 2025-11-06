@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@anthropic-ai/claude-code':
-        specifier: ^2.0.34
-        version: 2.0.34
+        specifier: ^2.0.35
+        version: 2.0.35
       '@prettier/plugin-php':
         specifier: ^0.24.0
         version: 0.24.0(prettier@3.6.2)
@@ -26,8 +26,8 @@ importers:
 
 packages:
 
-  '@anthropic-ai/claude-code@2.0.34':
-    resolution: {integrity: sha512-lIb/BPiBDZMSXSRcREqDjoERghZTgmEneUDBORolLWIeRJ+UglVpyqRqePK2SrWZR4VUJjs2F+XXqSNphpmj5w==}
+  '@anthropic-ai/claude-code@2.0.35':
+    resolution: {integrity: sha512-vH96QKwNuhxWiIL61C0Eq2TzrgpjfyX1I13cGOJnWtYULal95pR4ig6QFK56DJMSyb8KOQQyyzEBAEEsJZ9uHA==}
     engines: {node: '>=18.0.0'}
     hasBin: true
 
@@ -394,7 +394,7 @@ packages:
 
 snapshots:
 
-  '@anthropic-ai/claude-code@2.0.34':
+  '@anthropic-ai/claude-code@2.0.35':
     optionalDependencies:
       '@img/sharp-darwin-arm64': 0.33.5
       '@img/sharp-darwin-x64': 0.33.5
