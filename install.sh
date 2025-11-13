@@ -8,7 +8,9 @@ pushd "$BASE_DIR" >>/dev/null
 
 if type brew >/dev/null 2>&1; then
   source "$(brew --prefix asdf)/libexec/asdf.sh"
-else
+fi
+
+if [ -f /opt/asdf/asdf.sh ]; then
   source /opt/asdf/asdf.sh
 fi
 
