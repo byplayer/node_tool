@@ -4,7 +4,7 @@
   "private": true,
   "packageManager": "pnpm@10.17.1",
   "dependencies": {
-    "@anthropic-ai/claude-code": "^2.0.45",
+    "@anthropic-ai/claude-code": "^2.0.47",
     "@prettier/plugin-php": "^0.24.0",
     "markdownlint-cli2": "^0.18.1",
     "pnpm": "^10.22.0",
