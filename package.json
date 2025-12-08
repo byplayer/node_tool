@@ -7,7 +7,8 @@
     "@prettier/plugin-php": "^0.24.0",
     "markdownlint-cli2": "^0.18.1",
     "pnpm": "^10.24.0",
-    "prettier": "3.6.2"
+    "prettier": "3.6.2",
+    "prettier-plugin-toml": "^0.3.5"
   },
   "scripts": {
     "preinstall": "npx only-allow pnpm"
