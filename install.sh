@@ -14,6 +14,8 @@ if [ -f /opt/asdf/asdf.sh ]; then
   source /opt/asdf/asdf.sh
 fi
 
+asdf install
+
 set -eu
 
 npx pnpm install
