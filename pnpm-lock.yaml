@@ -18,8 +18,8 @@ importers:
         specifier: ^0.0.2
         version: 0.0.2
       pnpm:
-        specifier: ^10.33.0
-        version: 10.33.0
+        specifier: ^10.33.1
+        version: 10.33.1
       prettier:
         specifier: 3.6.2
         version: 3.6.2
@@ -446,8 +446,8 @@ packages:
     resolution: {integrity: sha512-tVUIDXgjyBNU23Yq8YQqJZ++u6Uj4DDHmeusiyB1neGzIit7wjuZO7SKnPvlPO4QDiEE9KutDY5ABz/Makrn4Q==}
     engines: {node: '>= 0.1.100'}
 
-  pnpm@10.33.0:
-    resolution: {integrity: sha512-EFaLtKavtYyes2MNqQzJUWQXq+vT+rvmc58K55VyjaFJHp21pUTHatjrdXD1xLs9bGN7LLQb/c20f6gjyGSTGQ==}
+  pnpm@10.33.1:
+    resolution: {integrity: sha512-Bbo8HV0cGPaN8GRw10BV5i1B/BEKDGYNsbLfsnhTJ/BM8PaDRdRgm8Ugief6A0PDFZOy+VlOLF1dpCYjCsyYIA==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -1118,7 +1118,7 @@ snapshots:
     dependencies:
       sax: 0.1.5
 
-  pnpm@10.33.0: {}
+  pnpm@10.33.1: {}
 
   policyfile@0.0.4: {}
 
