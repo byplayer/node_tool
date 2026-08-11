@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@mermaid-js/mermaid-cli':
-        specifier: github:mermaid-js/mermaid-cli
-        version: https://codeload.github.com/mermaid-js/mermaid-cli/tar.gz/111e0349a231308a0d54b4264d847f1d0852d9cb(puppeteer@24.43.1)(tailwindcss@3.4.19)
+        specifier: ^11.16.0
+        version: 11.16.0(puppeteer@24.43.1)(tailwindcss@3.4.19)
       '@prettier/plugin-php':
         specifier: ^0.24.0
         version: 0.24.0(prettier@3.6.2)
@@ -18,8 +18,8 @@ importers:
         specifier: ^0.18.1
         version: 0.18.1
       pnpm:
-        specifier: ^10.34.5
-        version: 10.34.5
+        specifier: ^11.20.0
+        version: 11.20.0
       prettier:
         specifier: 3.6.2
         version: 3.6.2
@@ -132,9 +132,8 @@ packages:
     peerDependencies:
       mermaid: ^11.0.2
 
-  '@mermaid-js/mermaid-cli@https://codeload.github.com/mermaid-js/mermaid-cli/tar.gz/111e0349a231308a0d54b4264d847f1d0852d9cb':
-    resolution: {tarball: https://codeload.github.com/mermaid-js/mermaid-cli/tar.gz/111e0349a231308a0d54b4264d847f1d0852d9cb}
-    version: 11.16.0
+  '@mermaid-js/mermaid-cli@11.16.0':
+    resolution: {integrity: sha512-0InK2nbVIMtzVzCugmdvPkAuvS6wRUqU6Utntff1n8c7lgfRZAdhKY6PSKvcIK9nFmuOUzAgB5+x/XWcroZ7Zg==}
     engines: {node: ^18.19 || >=20.0}
     hasBin: true
     peerDependencies:
@@ -1295,9 +1294,9 @@ packages:
     resolution: {integrity: sha512-TfySrs/5nm8fQJDcBDuUng3VOUKsd7S+zqvbOTiGXHfxX4wK31ard+hoNuvkicM/2YFzlpDgABOevKSsB4G/FA==}
     engines: {node: '>= 6'}
 
-  pnpm@10.34.5:
-    resolution: {integrity: sha512-pO4F8vc2WCVb1qiYWcBlpFwopX2u+uLIk6Fo7itzFow3uR6D5X6mdlStA/AwMXRkMOi84442LgQmBfuKvIAZLg==}
-    engines: {node: '>=18.12'}
+  pnpm@11.20.0:
+    resolution: {integrity: sha512-mm8zCpW2ZEbqCI+vFSFAWooB8H/ecSTMmVjf7VLUu0NnN+ZbCPhfN7Rvy6N1CSVYrFEmK4FoRLIvY0Bu0Wa/7g==}
+    engines: {node: '>=22.13'}
     hasBin: true
 
   points-on-curve@0.2.0:
@@ -1750,7 +1749,7 @@ snapshots:
       mermaid: 11.16.0
     optional: true
 
-  '@mermaid-js/mermaid-cli@https://codeload.github.com/mermaid-js/mermaid-cli/tar.gz/111e0349a231308a0d54b4264d847f1d0852d9cb(puppeteer@24.43.1)(tailwindcss@3.4.19)':
+  '@mermaid-js/mermaid-cli@11.16.0(puppeteer@24.43.1)(tailwindcss@3.4.19)':
     dependencies:
       '@fortawesome/fontawesome-free': 7.3.1
       '@mermaid-js/layout-elk': 0.2.2(mermaid@11.16.0)
@@ -3026,7 +3025,7 @@ snapshots:
 
   pirates@4.0.7: {}
 
-  pnpm@10.34.5: {}
+  pnpm@11.20.0: {}
 
   points-on-curve@0.2.0: {}
 
