@@ -18,8 +18,8 @@ importers:
         specifier: ^0.18.1
         version: 0.18.1
       pnpm:
-        specifier: ^10.34.5
-        version: 10.34.5
+        specifier: ^11.20.0
+        version: 11.20.0
       prettier:
         specifier: 3.6.2
         version: 3.6.2
@@ -1295,9 +1295,9 @@ packages:
     resolution: {integrity: sha512-TfySrs/5nm8fQJDcBDuUng3VOUKsd7S+zqvbOTiGXHfxX4wK31ard+hoNuvkicM/2YFzlpDgABOevKSsB4G/FA==}
     engines: {node: '>= 6'}
 
-  pnpm@10.34.5:
-    resolution: {integrity: sha512-pO4F8vc2WCVb1qiYWcBlpFwopX2u+uLIk6Fo7itzFow3uR6D5X6mdlStA/AwMXRkMOi84442LgQmBfuKvIAZLg==}
-    engines: {node: '>=18.12'}
+  pnpm@11.20.0:
+    resolution: {integrity: sha512-mm8zCpW2ZEbqCI+vFSFAWooB8H/ecSTMmVjf7VLUu0NnN+ZbCPhfN7Rvy6N1CSVYrFEmK4FoRLIvY0Bu0Wa/7g==}
+    engines: {node: '>=22.13'}
     hasBin: true
 
   points-on-curve@0.2.0:
@@ -3026,7 +3026,7 @@ snapshots:
 
   pirates@4.0.7: {}
 
-  pnpm@10.34.5: {}
+  pnpm@11.20.0: {}
 
   points-on-curve@0.2.0: {}
 

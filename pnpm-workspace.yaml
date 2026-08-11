@@ -1,3 +1,6 @@
 minimumReleaseAge: 10080
 trustPolicy: no-downgrade
 
+allowBuilds:
+  '@mermaid-js/mermaid-cli@https://codeload.github.com/mermaid-js/mermaid-cli/tar.gz/111e0349a231308a0d54b4264d847f1d0852d9cb': true
+  puppeteer: true

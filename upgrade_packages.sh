@@ -1,6 +1,16 @@
 #!/bin/bash
 
-pnpm update
+# --latest でメジャーバージョンも含めて更新する (pnpm 自身も dependencies に含まれる)
+pnpm update --latest
+
+# dependencies の pnpm に合わせて packageManager フィールドも更新する
+pnpm_version=$(node -p "require('./node_modules/pnpm/package.json').version")
+if [[ -n "$pnpm_version" ]]; then
+    pnpm pkg set "packageManager=pnpm@${pnpm_version}"
+    echo "📦 packageManager: pnpm@${pnpm_version}"
+else
+    echo "⚠️  Failed to detect installed pnpm version. Skipping packageManager update."
+fi
 
 if [[ -z $(git status --porcelain) ]]; then
     echo "✅ No changes to commit. Exiting."
