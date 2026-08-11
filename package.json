@@ -4,7 +4,7 @@
   "private": true,
   "packageManager": "pnpm@11.20.0",
   "dependencies": {
-    "@mermaid-js/mermaid-cli": "github:mermaid-js/mermaid-cli",
+    "@mermaid-js/mermaid-cli": "^11.16.0",
     "@prettier/plugin-php": "^0.24.0",
     "markdownlint-cli2": "^0.18.1",
     "pnpm": "^11.20.0",
