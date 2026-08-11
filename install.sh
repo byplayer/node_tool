@@ -7,7 +7,11 @@ popd >/dev/null
 pushd "$BASE_DIR" >>/dev/null
 
 if type brew >/dev/null 2>&1; then
-  source "$(brew --prefix asdf)/libexec/asdf.sh"
+  # asdf 0.16 or later (Go implementation) does not provide asdf.sh
+  ASDF_SH="$(brew --prefix asdf)/libexec/asdf.sh"
+  if [ -f "$ASDF_SH" ]; then
+    source "$ASDF_SH"
+  fi
 fi
 
 if [ -f /opt/asdf/asdf.sh ]; then
@@ -18,7 +22,8 @@ asdf install
 
 set -eu
 
-npx pnpm install
+# Do not prompt when pnpm needs to purge node_modules (fails on non-TTY runs)
+npx pnpm --config.confirmModulesPurge=false install
 
 if [ -d bin ]; then
   rm -r bin
