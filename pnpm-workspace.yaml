@@ -1,5 +1,11 @@
 minimumReleaseAge: 10080
 trustPolicy: no-downgrade
 
+# cytoscape 3.34.0 は GitHub Actions の trusted publisher + provenance 付きで公開されたが、
+# 3.34.1 はメンテナ (maxkfranz) の手動公開に戻ったため trust downgrade として検知される。
+# GitHub の v3.34.1 リリース (2026-08-11) と npm の公開時刻が一致しており正規リリースと確認済み。
+trustPolicyExclude:
+  - cytoscape@3.34.1
+
 allowBuilds:
   puppeteer: true
