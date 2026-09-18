@@ -8,5 +8,5 @@ trustPolicyExclude:
   - cytoscape@3.34.1
 
 allowBuilds:
-  pnpm: set this to true or false
+  pnpm: true
   puppeteer: true
