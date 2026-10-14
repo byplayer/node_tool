@@ -12,6 +12,8 @@ else
     echo "⚠️  Failed to detect installed pnpm version. Skipping packageManager update."
 fi
 
+./insta..sh
+
 if [[ -z $(git status --porcelain) ]]; then
     echo "✅ No changes to commit. Exiting."
     exit 0
