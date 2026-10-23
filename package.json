@@ -2,13 +2,13 @@
   "name": "node_tools",
   "version": "0.3.0",
   "private": true,
-  "packageManager": "pnpm@12.10.1",
+  "packageManager": "pnpm@12.14.0",
   "dependencies": {
     "@mermaid-js/mermaid-cli": "^12.0.0",
     "@prettier/plugin-php": "^0.25.0",
     "markdownlint-cli2": "^0.23.3",
-    "pnpm": "^12.10.1",
-    "prettier": "3.9.9",
+    "pnpm": "^12.14.0",
+    "prettier": "3.9.10",
     "prettier-plugin-toml": "^3.0.2"
   },
   "scripts": {

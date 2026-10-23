@@ -6,6 +6,11 @@ trustPolicy: no-downgrade
 # GitHub の v3.34.1 リリース (2026-08-11) と npm の公開時刻が一致しており正規リリースと確認済み。
 trustPolicyExclude:
   - cytoscape@3.34.1
+  # chromium-bidi は 17.0.2 まで GitHub Actions の trusted publisher で公開されていたが、
+  # 157.x 系 (Chrome のバージョン番号に合わせた採番) からは Google の chrome-devtools-npm
+  # アカウントの手動公開に切り替わったため trust downgrade として検知される。
+  # 公開者は既存メンテナで、puppeteer-core 25.14.0 (provenance 付き) がこのバージョンを固定で依存している。
+  - chromium-bidi@157.0.8090-0
 
 allowBuilds:
   pnpm: true
