@@ -30,7 +30,7 @@ else
     git push
 fi
 
-pr_url=$(gh pr create --title "⬆️ upgrade packages" --body "Automated package upgrade via \`update_packages.sh\` script." | grep -o 'https://github.com/[^ ]*')
+pr_url=$(/opt/homebrew/bin/gh pr create --title "⬆️ upgrade packages" --body "Automated package upgrade via \`update_packages.sh\` script." | grep -o 'https://github.com/[^ ]*')
 if [[ -n "$pr_url" ]]; then
     open "$pr_url"
 else
